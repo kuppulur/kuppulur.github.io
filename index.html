@@ -1,1 +1,514 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+    <!-- Header Section -->
+    <header class="bg-white shadow-lg">
+        <div class="container mx-auto px-4 py-6 flex items-center justify-between">
+            <div class="flex items-center">
+                <img src="assets/images/profile.jpeg" alt="Profile Picture" class="rounded-full w-16 h-16 object-cover mr-4">
+                <h1 class="text-2xl font-bold text-gray-800">Karthik Uppuluri</h1>
+            </div>
+            <nav>
+                <a href="https://github.com/kuppulur" class="text-gray-600 hover:text-gray-900 mx-2">
+                    <i class="fab fa-github text-2xl"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/karthik-uppuluri-52605b1a/" class="text-gray-600 hover:text-gray-900 mx-2">
+                    <i class="fab fa-linkedin text-2xl"></i>
+                </a>
+                <a href="https://scholar.google.com/citations?user=JDcL0psAAAAJ&hl=en" class="text-gray-600 hover:text-gray-900 mx-2" title="Google Scholar">
+                    <i class="fas fa-graduation-cap text-2xl"></i>
+                </a>
+                <a href="https://www.lens.org/lens/profile/600418568/scholar" class="text-gray-600 hover:text-gray-900 mx-2" title="Lens.org">
+                    <i class="fas fa-microscope text-2xl"></i>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">About Me</h2>
+            <div class="max-w-3xl mx-auto">
+                <div class="prose lg:prose-lg text-gray-600">
+                    <p class="mb-6">
+                        Hey there! I'm fascinated by how machines can understand human language, and that's what I do for a living. I build systems that can read, understand, and answer questions just like humans do (well, almost!). Think of it as teaching computers to be better conversation partners.
+                    </p>
+                    
+                    <p class="mb-6">
+                        While I geek out on Machine Learning and AI in general, what really gets me excited is working with different languages. Telugu, my mother tongue, holds a special place in my heart. I'm on a mission to make AI work better for languages that big tech often overlooks. It's like bringing the power of AI to the languages that deserve more attention!
+                    </p>
+
+                    <p class="mb-6">
+                        When I'm not diving deep into code or playing with language models, you'll find me hitting the pavement for a long run or strumming away on my string instruments. Running helps me clear my head, and music... well, let's just say my instruments are patient with my amateur attempts at making music! 😄
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Experience</h2>
+            <div class="flex justify-center space-x-8">
+                <img src="assets/images/uh.png" alt="University of Houston" class="h-12 object-contain">
+                <img src="assets/images/sap.png" alt="SAP" class="h-12 object-contain">
+                <img src="assets/images/fidelity.png" alt="Fidelity" class="h-12 object-contain">
+            </div>
+        </div>
+    </section>
+
+    <!-- Patents Section -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Patents</h2>
+            <div class="grid gap-6 max-w-4xl mx-auto">
+                <div class="bg-gray-50 p-6 rounded-lg shadow">
+                    <div class="flex items-start justify-between mb-2">
+                        <h3 class="font-bold text-lg">Cognitive Enterprise System</h3>
+                        <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-semibold">Granted</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">Systems and methods for intelligent query processing using natural language understanding and knowledge graphs. Tokenizes user queries, identifies intents, and executes relevant functions to generate contextual responses using enterprise data sources.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg shadow">
+                    <div class="flex items-start justify-between mb-2">
+                        <h3 class="font-bold text-lg">Contextual Natural Language Processing In Enterprise Applications</h3>
+                        <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-semibold">Granted</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">Converts natural language instructions into executable software transactions. Uses NLP to transform user inputs into application-specific formats, filters based on context parameters, and matches to appropriate transactions for execution.</p>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg shadow">
+                    <div class="flex items-start justify-between mb-2">
+                        <h3 class="font-bold text-lg">Large Language Model Guardrails</h3>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold">Filed</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">Safety and control mechanisms for large language model deployments in enterprise environments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Publications</h2>
+            <div class="max-w-4xl mx-auto">
+                
+                <!-- Primary Publications -->
+                <div class="mb-8">
+                    <h3 class="text-xl font-semibold text-gray-700 mb-4 flex items-center">
+                        <i class="fas fa-file-alt text-blue-500 mr-2"></i>
+                        Research Publications
+                    </h3>
+                    <div class="space-y-4">
+                        
+                        <div class="bg-white p-6 rounded-lg shadow">
+                            <div class="flex items-start justify-between mb-2">
+                                <h4 class="font-bold text-lg">Text2Zinc: A Cross-Domain Dataset for Modeling Optimization and Satisfaction Problems in MiniZinc</h4>
+                                <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm font-semibold whitespace-nowrap ml-4">INFORMS 2025</span>
+                            </div>
+                            <p class="text-gray-600 mb-3">A novel cross-domain dataset for bridging natural language and constraint optimization modeling using MiniZinc.</p>
+                            <a href="https://arxiv.org/abs/2503.10642" class="text-blue-600 hover:text-blue-800 flex items-center">
+                                <i class="fas fa-external-link-alt mr-1"></i> View on arXiv
+                            </a>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-lg shadow">
+                            <div class="flex items-start justify-between mb-2">
+                                <h4 class="font-bold text-lg">Ner4Opt: Named Entity Recognition for Optimization Modelling from Natural Language</h4>
+                                <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-semibold whitespace-nowrap ml-4">Constraints 2024</span>
+                            </div>
+                            <p class="text-gray-600 mb-3">Journal paper presenting a named entity recognition approach to extract optimization components from natural language problem descriptions.</p>
+                            <a href="https://link.springer.com/article/10.1007/s10601-024-09376-5" class="text-blue-600 hover:text-blue-800 flex items-center">
+                                <i class="fas fa-external-link-alt mr-1"></i> View on Springer
+                            </a>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-lg shadow">
+                            <div class="flex items-start justify-between mb-2">
+                                <h4 class="font-bold text-lg">Ner4Opt: Named Entity Recognition for Optimization Modelling from Natural Language</h4>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-semibold whitespace-nowrap ml-4">CPAIOR 2023</span>
+                            </div>
+                            <p class="text-gray-600 mb-3">Conference paper introducing the Ner4Opt framework for automated optimization model generation from natural language.</p>
+                            <a href="https://link.springer.com/chapter/10.1007/978-3-031-33271-5_20" class="text-blue-600 hover:text-blue-800 flex items-center">
+                                <i class="fas fa-external-link-alt mr-1"></i> View on Springer
+                            </a>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-lg shadow">
+                            <div class="flex items-start justify-between mb-2">
+                                <h4 class="font-bold text-lg">Natural Language for Optimization</h4>
+                                <span class="px-3 py-1 bg-orange-100 text-orange-800 rounded-full text-sm font-semibold whitespace-nowrap ml-4">NeurIPS 2022</span>
+                            </div>
+                            <p class="text-gray-600 mb-3">Poster presentation on leveraging natural language processing for optimization problem formulation.</p>
+                            <a href="assets/pdfs/[NeurIPS+2022]+Ner4Opt+Poster.pdf" class="text-blue-600 hover:text-blue-800 flex items-center">
+                                <i class="fas fa-file-pdf mr-1"></i> View Poster (PDF)
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Citations & Mentions -->
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700 mb-4 flex items-center">
+                        <i class="fas fa-quote-right text-green-500 mr-2"></i>
+                        Citations & Presentations
+                    </h3>
+                    <div class="bg-white p-6 rounded-lg shadow">
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <i class="fas fa-chevron-right text-gray-400 mr-3 mt-1"></i>
+                                <div>
+                                    <p class="text-gray-800"><strong>AI Magazine 2025 & IAAI 2025:</strong> Open-source AI at scale: Establishing an enterprise AI strategy through modular frameworks</p>
+                                    <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70032" class="text-blue-600 hover:text-blue-800 text-sm">Read Article →</a>
+                                </div>
+                            </li>
+                            
+                            <li class="flex items-start">
+                                <i class="fas fa-chevron-right text-gray-400 mr-3 mt-1"></i>
+                                <div>
+                                    <p class="text-gray-800"><strong>CORS 2025 Plenary Talk:</strong> Decision Making in the Era of Large-Language Models (Alberta, Canada)</p>
+                                    <a href="assets/pdfs/2025_CORS_Ner2Zinc_Kadioglu.pdf" class="text-blue-600 hover:text-blue-800 text-sm">View Slides →</a>
+                                </div>
+                            </li>
+                            
+                            <li class="flex items-start">
+                                <i class="fas fa-chevron-right text-gray-400 mr-3 mt-1"></i>
+                                <div>
+                                    <p class="text-gray-800"><strong>ICS 2025:</strong> Ner2Zinc</p>
+                                    <a href="assets/pdfs/2025_ICS_Ner2Zinc_Kadioglu.pdf" class="text-blue-600 hover:text-blue-800 text-sm">View Slides →</a>
+                                </div>
+                            </li>
+                            
+                            <li class="flex items-start">
+                                <i class="fas fa-chevron-right text-gray-400 mr-3 mt-1"></i>
+                                <div>
+                                    <p class="text-gray-800"><strong>AAAI 2025:</strong> Text2Zinc</p>
+                                    <a href="assets/pdfs/2025_AAAI_Text2Zinc_Kadioglu.pdf" class="text-blue-600 hover:text-blue-800 text-sm">View Slides →</a>
+                                </div>
+                            </li>
+                            
+                            <li class="flex items-start">
+                                <i class="fas fa-chevron-right text-gray-400 mr-3 mt-1"></i>
+                                <div>
+                                    <p class="text-gray-800"><strong>Koç University Invited Talk:</strong> Ner4Opt</p>
+                                    <a href="https://ai.ku.edu.tr/ai-meetings/?detail=true&id=710794b3-3991-4df5-9091-926bdd90fa6f" class="text-blue-600 hover:text-blue-800 text-sm">View Details →</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Talks Section -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Talks & Presentations</h2>
+            <div class="grid gap-6 max-w-4xl mx-auto">
+                <div class="bg-gray-50 p-6 rounded-lg shadow">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 mr-4">
+                            <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
+                                <i class="fas fa-microphone-alt text-blue-600"></i>
+                            </div>
+                        </div>
+                        <div class="flex-grow">
+                            <h3 class="font-bold mb-1">Generative AI</h3>
+                            <p class="text-sm text-gray-500 mb-2">All Things Open RTP Meetup • May 2023</p>
+                            <p class="text-gray-600 mb-3">Exploring the landscape of generative AI technologies, applications, and implications for developers and enterprises.</p>
+                            <div class="flex space-x-4">
+                                <a href="assets/pdfs/[2023-05] Generative AI at ATO.pdf" class="text-sm text-blue-600 hover:text-blue-800 flex items-center">
+                                    <i class="fas fa-presentation mr-1"></i> Slides
+                                </a>
+                                <a href="https://www.meetup.com/all-things-open-rtp-meetup/events/294310666/" class="text-sm text-blue-600 hover:text-blue-800 flex items-center">
+                                    <i class="fas fa-link mr-1"></i> Event Details
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Models Section -->
+    <section class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Open Source AI Models</h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="grid gap-6 mb-8">
+                    
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <div class="flex items-start justify-between mb-3">
+                            <div class="flex-grow">
+                                <h3 class="font-bold text-lg mb-1">Telugu BERT</h3>
+                                <p class="text-sm text-blue-600 mb-2">kuppuluri/telugu_bertu</p>
+                            </div>
+                            <div class="flex items-center space-x-2 ml-4">
+                                <span class="flex items-center text-gray-600 text-sm">
+                                    <i class="fas fa-download mr-1"></i>
+                                    <span class="font-semibold">9,214</span>
+                                </span>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">First-ever BERT Masked Language Model trained on the Telugu language from scratch. A foundational model for Telugu NLP tasks, enabling transfer learning for various downstream applications.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm">BERT</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm">Telugu</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm">MLM</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm">Transformers</span>
+                        </div>
+                        <a href="https://huggingface.co/kuppuluri/telugu_bertu" class="text-blue-600 hover:text-blue-800 flex items-center">
+                            <i class="fas fa-external-link-alt mr-2"></i> View on Hugging Face
+                        </a>
+                    </div>
+
+                    <div class="bg-white p-6 rounded-lg shadow-lg">
+                        <div class="flex items-start justify-between mb-3">
+                            <div class="flex-grow">
+                                <h3 class="font-bold text-lg mb-1">Telugu Comprehension</h3>
+                                <p class="text-sm text-blue-600 mb-2">kuppuluri/telugu_bertu_tydiqa</p>
+                            </div>
+                            <div class="flex items-center space-x-2 ml-4">
+                                <span class="flex items-center text-gray-600 text-sm">
+                                    <i class="fas fa-download mr-1"></i>
+                                    <span class="font-semibold">1,821</span>
+                                </span>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">Telugu Question-Answering model fine-tuned on Google's TyDiQA dataset. Enables extractive question answering for Telugu text, advancing comprehension capabilities for low-resource languages.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm">Question Answering</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm">Telugu</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm">TyDiQA</span>
+                            <span class="px-3 py-1 bg-purple-100 text-purple-800 rounded-full text-sm">BERT</span>
+                        </div>
+                        <a href="https://huggingface.co/kuppuluri/telugu_bertu_tydiqa" class="text-blue-600 hover:text-blue-800 flex items-center">
+                            <i class="fas fa-external-link-alt mr-2"></i> View on Hugging Face
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- Hugging Face Profiles -->
+                <div class="bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-lg shadow">
+                    <h3 class="font-semibold text-gray-800 mb-3 flex items-center">
+                        <i class="fas fa-rocket text-blue-600 mr-2"></i>
+                        More Models & Demos
+                    </h3>
+                    <p class="text-gray-600 mb-4">For the latest models, demos, and experiments, visit my Hugging Face profiles:</p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="https://huggingface.co/kuppuluri" class="inline-flex items-center px-4 py-2 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-gray-700 hover:text-blue-600">
+                            <i class="fas fa-user-circle mr-2"></i>
+                            <span class="font-semibold">kuppuluri</span>
+                        </a>
+                        <a href="https://huggingface.co/skadio" class="inline-flex items-center px-4 py-2 bg-white rounded-lg shadow hover:shadow-md transition-shadow text-gray-700 hover:text-blue-600">
+                            <i class="fas fa-users mr-2"></i>
+                            <span class="font-semibold">skadio</span>
+                            <span class="text-sm text-gray-500 ml-2">(collaborative)</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academic Service Section -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Academic Service</h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="grid gap-6">
+                    
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-lg border-l-4 border-blue-500">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 mr-4">
+                                <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
+                                    <i class="fas fa-check-circle text-blue-600 text-xl"></i>
+                                </div>
+                            </div>
+                            <div class="flex-grow">
+                                <h3 class="font-bold text-lg mb-2">Invited Reviewer</h3>
+                                <div class="mb-3">
+                                    <p class="text-gray-700 font-semibold">NeurIPS 2025</p>
+                                    <p class="text-sm text-gray-600">Neural Information Processing Systems - Premier ML/AI Conference</p>
+                                </div>
+                                <a href="https://neurips.cc/Conferences/2025/ProgramCommittee" class="text-blue-600 hover:text-blue-800 text-sm flex items-center">
+                                    <i class="fas fa-external-link-alt mr-1"></i> View Program Committee
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-lg border-l-4 border-purple-500">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 mr-4">
+                                <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center">
+                                    <i class="fas fa-atom text-purple-600 text-xl"></i>
+                                </div>
+                            </div>
+                            <div class="flex-grow">
+                                <h3 class="font-bold text-lg mb-2">Invited Reviewer</h3>
+                                <div class="mb-3">
+                                    <p class="text-gray-700 font-semibold">AlphaXiv</p>
+                                    <p class="text-sm text-gray-600">An open discussion platform and AI research tool built on top of arXiv</p>
+                                </div>
+                                <a href="https://www.alphaxiv.org/@lightyagami" class="text-blue-600 hover:text-blue-800 text-sm flex items-center">
+                                    <i class="fas fa-external-link-alt mr-1"></i> View Profile
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Open Source Libraries Section -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Open Source Libraries</h2>
+            <div class="max-w-4xl mx-auto grid gap-8">
+                <!-- Created & Maintained -->
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700 mb-4 flex items-center">
+                        <i class="fas fa-code-branch text-blue-500 mr-2"></i>
+                        Created & Maintained
+                    </h3>
+                    <div class="space-y-6">
+                        
+                        <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden">
+                            <div class="p-6">
+                                <div class="flex items-center justify-between mb-4">
+                                    <h4 class="text-lg font-bold text-gray-800">Ner4Opt</h4>
+                                    <div class="flex items-center space-x-3">
+                                        <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">Active</span>
+                                        <a href="https://github.com/skadio/ner4opt" class="text-gray-600 hover:text-gray-900">
+                                            <i class="fab fa-github text-xl"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="text-gray-600 mb-4">Named Entity Recognition for Optimization - A framework for extracting optimization components from natural language problem descriptions and generating constraint programming models.</p>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Python</span>
+                                    <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">NLP</span>
+                                    <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Optimization</span>
+                                    <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">NER</span>
+                                </div>
+                            </div>
+                            <div class="bg-gray-100 px-6 py-3 flex items-center justify-between">
+                                <a href="https://github.com/skadio/ner4opt" class="text-blue-600 hover:text-blue-800">View on GitHub →</a>
+                            </div>
+                        </div>
+
+                        <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden">
+                            <div class="p-6">
+                                <div class="flex items-center justify-between mb-4">
+                                    <h4 class="text-lg font-bold text-gray-800">Telugu Language Modeling</h4>
+                                    <div class="flex items-center space-x-3">
+                                        <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">Active</span>
+                                        <a href="https://github.com/kuppulur/Telugu_Experiments" class="text-gray-600 hover:text-gray-900">
+                                            <i class="fab fa-github text-xl"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="text-gray-600 mb-4">Experiments in building language models for Telugu from scratch - exploring low-resource NLP techniques for underrepresented languages.</p>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Python</span>
+                                    <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">NLP</span>
+                                    <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Telugu</span>
+                                    <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Language Modeling</span>
+                                </div>
+                            </div>
+                            <div class="bg-gray-100 px-6 py-3 flex items-center justify-between">
+                                <a href="https://github.com/kuppulur/Telugu_Experiments" class="text-blue-600 hover:text-blue-800">View on GitHub →</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Contributed & Maintained -->
+                <div>
+                    <h3 class="text-xl font-semibold text-gray-700 mb-4 flex items-center">
+                        <i class="fas fa-users text-purple-500 mr-2"></i>
+                        Contributed
+                    </h3>
+                    <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden">
+                        <div class="p-6">
+                            <div class="flex items-center justify-between mb-4">
+                                <h4 class="text-lg font-bold text-gray-800">TextWiser</h4>
+                                <div class="flex items-center space-x-3">
+                                    <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">Active</span>
+                                    <a href="https://github.com/fidelity/textwiser" class="text-gray-600 hover:text-gray-900">
+                                        <i class="fab fa-github text-xl"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 mb-4">Text Featurization Library - A flexible and easy-to-use library for text featurization with support for various embedding techniques and transformers. Developed at Fidelity Investments.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Python</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">NLP</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Text Embeddings</span>
+                                <span class="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">Machine Learning</span>
+                            </div>
+                        </div>
+                        <div class="bg-gray-100 px-6 py-3 flex items-center justify-between">
+                            <a href="https://github.com/fidelity/textwiser" class="text-blue-600 hover:text-blue-800">View on GitHub →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Hobbies</h2>
+            <div class="flex justify-center items-center space-x-12">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-white rounded-full shadow-lg flex items-center justify-center mb-2">
+                        <i class="fas fa-running text-3xl text-gray-700"></i>
+                    </div>
+                    <span class="text-sm text-gray-600">Running</span>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-white rounded-full shadow-lg flex items-center justify-center mb-2">
+                        <i class="fas fa-guitar text-3xl text-gray-700"></i>
+                    </div>
+                    <span class="text-sm text-gray-600">Guitar</span>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-white rounded-full shadow-lg flex items-center justify-center mb-2">
+                        <i class="fas fa-music text-3xl text-gray-700"></i>
+                    </div>
+                    <span class="text-sm text-gray-600">Ukulele</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>© 2025 Karthik Uppuluri. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
